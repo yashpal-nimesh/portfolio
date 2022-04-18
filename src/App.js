@@ -35,6 +35,8 @@ import expressIcon from "./images/express.png";
 import mongoIcon from "./images/mongo.png";
 import herokuIcon from "./images/heroku.png";
 import firebaseIcon from "./images/firebase.png";
+import Projects from "./Project";
+import razorpayIcon from "./images/razorpay.png";
 
 const skillIcon = [
   {
@@ -156,6 +158,7 @@ const libIcon = [
     isDatePicker: true,
     link: "https://www.google.com/search?q=onesignal&spell=1&sa=X&ved=2ahUKEwjr-buwz533AhVSxjgGHZERDa0QBSgAegQIARAy&biw=1294&bih=669&dpr=1",
   },
+
   {
     icon: "https://react-table.tanstack.com/_next/static/images/logo-light-66d4dd9109004332c863391e6d1cb309.svg",
     isDatePicker: true,
@@ -190,6 +193,10 @@ const libIcon = [
   {
     icon: lodashIcon,
     link: "https://www.google.com/search?q=lodash&biw=1294&bih=669&ei=HFtdYpTbOfmH4-EP-s2F4A0&oq=lodash&gs_lcp=Cgdnd3Mtd2l6EAMYADIHCAAQsQMQQzIICAAQsQMQkQIyBAgAEEMyBAgAEEMyBAgAEEMyBAgAEEMyBAgAEEMyBQgAEIAEMgUIABCABDIFCAAQgAQ6DgguEIAEELEDEMcBENEDOg4ILhCABBCxAxDHARCjAjoICAAQgAQQsQM6CAgAELEDEIMBOgUIABCRAjoOCC4QgAQQsQMQxwEQrwFKBAhBGABKBAhGGABQAFi_B2CaDmgAcAF4AIABgAKIAekIkgEFMC4zLjOYAQCgAQHAAQE&sclient=gws-wiz",
+  },
+  {
+    icon: razorpayIcon,
+    link: "https://www.google.com/search?gs_ssp=eJzj4tVP1zc0TDY3LslNMctVYDRgdGDw4ihKrMovKkisBABzuwhQ&q=razorpay&oq=ra&aqs=chrome.1.69i59j46i199i433i465i512j69i59j69i57j69i60l4.1598j0j7&sourceid=chrome&ie=UTF-8",
   },
 ];
 
@@ -241,8 +248,17 @@ export default function Example() {
         <main className="-mt-32">
           <div className="max-w-7xl mx-auto pb-12 px-4 sm:px-6 lg:px-8">
             <div className="bg-white rounded-lg shadow px-5 py-6 sm:px-6">
-              <div className="border-gray-200 rounded-lg">
-                My Top Skills I have worked on
+              <div className="border-gray-200 rounded-lg m-5">
+                <p style={{ fontSize: "35px", marginBottom: "30px" }}>
+                  My Projects
+                </p>
+                <Projects />
+              </div>
+
+              <div className="border-gray-200 rounded-lg mt-5">
+                <p style={{ fontSize: "20px", marginTop: "50px" }}>
+                  My Top Skills I have worked on
+                </p>
                 <ul role="list" className="">
                   {skillIcon.map((data) => (
                     <a href={data.link} target="_blank">
@@ -259,7 +275,9 @@ export default function Example() {
                 </ul>
               </div>
               <div className="border-gray-200 rounded-lg">
-                Tools and Platform I have worked on
+                <p style={{ fontSize: "20px", marginTop: "50px" }}>
+                  Tools and Platform I have worked on
+                </p>
                 <ul role="list" className="">
                   {toolIcon.map((data) => (
                     <a href={data.link} target="_blank">
@@ -276,7 +294,9 @@ export default function Example() {
                 </ul>
               </div>
               <div className="border-gray-200 rounded-lg">
-                Libraries I have used in projects
+                <p style={{ fontSize: "20px", marginTop: "50px" }}>
+                  Libraries I have used in projects
+                </p>
                 <ul role="list" className="">
                   {libIcon.map((data) => (
                     <a href={data.link} target="_blank">
@@ -299,7 +319,9 @@ export default function Example() {
                 </ul>
               </div>
               <div className="border-gray-200 rounded-lg">
-                Other Skills I was worked on
+                <p style={{ fontSize: "20px", marginTop: "50px" }}>
+                  Other Skills I was worked on
+                </p>
                 <ul role="list" className="">
                   {otherIcon.map((data) => (
                     <a href={data.link} target="_blank">
