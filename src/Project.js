@@ -22,12 +22,23 @@ import lodashIcon from "./images/lodash.png";
 import liminalIcon from "./images/liminal.svg";
 import horizonIcon from "./images/horizon.png";
 import razorpayIcon from "./images/razorpay.png";
+import maloIcon from "./images/bravo.png";
+import firebaseIcon from "./images/firebase.png";
+import reduxIcon from "./images/redux.svg";
+import messIcon from "./images/mess.png";
+import expressIcon from "./images/express.png";
+import handlebarsIcon from "./images/handlebars.png";
+import mongoIcon from "./images/mongo.png";
+import htmlIcon from "./images/html.png";
+import cssIcon from "./images/css.png";
+import javascriptIcon from "./images/javascript.png";
+import vercelIcon from "./images/vercel.png";
 
 const actions = [
   {
     title: "Live History India",
     titleDesc: "History Application",
-    desc: "Reach out to the locals in your area and grow your business presence in the neighbourhood.",
+    // desc: "Reach out to the locals in your area and grow your business presence in the neighbourhood.",
     href: "https://www.livehistoryindia.com/",
     icon: lhiIcon,
     techIcon: [
@@ -84,12 +95,16 @@ const actions = [
         icon: razorpayIcon,
         link: "https://www.google.com/search?gs_ssp=eJzj4tVP1zc0TDY3LslNMctVYDRgdGDw4ihKrMovKkisBABzuwhQ&q=razorpay&oq=ra&aqs=chrome.1.69i59j46i199i433i465i512j69i59j69i57j69i60l4.1598j0j7&sourceid=chrome&ie=UTF-8",
       },
+      {
+        icon: vercelIcon,
+        link: "https://www.google.com/search?q=vercel&ei=X1ldYs7kKsqP4-EPp_-8-Aw&ved=0ahUKEwiOkPKnzp33AhXKxzgGHac_D88Q4dUDCA4&uact=5&oq=vercel&gs_lcp=Cgdnd3Mtd2l6EAMyBwgAELEDEEMyBQgAEIAEMgUIABCABDIFCAAQgAQyCAgAEIAEELEDMgUIABCABDIFCC4QgAQyBQgAEIAEMgUIABCABDIFCAAQgAQ6CAguEIAEELEDOgsILhCABBDHARDRAzoLCC4QgAQQxwEQowI6BAgAEEM6CgguEMcBENEDEEM6CwguEIAEELEDENQCOhEILhCABBCxAxDHARDRAxDUAjoHCAAQgAQQCjoNCC4QgAQQxwEQ0QMQCkoECEEYAEoECEYYAFAAWO4UYPMWaABwAXgAgAHpAYgB4QeSAQUwLjQuMpgBAKABAcABAQ&sclient=gws-wiz",
+      },
     ],
   },
   {
     title: "WhatzOn",
     titleDesc: "Management Application",
-    desc: "Reach out to the locals in your area and grow your business presence in the neighbourhood.",
+    // desc: "Reach out to the locals in your area and grow your business presence in the neighbourhood.",
     href: "https://dev-whatzon-business.greatwrk.com/",
     icon: whatzonIcon,
     techIcon: [
@@ -159,7 +174,7 @@ const actions = [
   {
     title: "Stir Crazy Kids",
     titleDesc: "School Canteen Application",
-    desc: "Reach out to the locals in your area and grow your business presence in the neighbourhood.",
+    // desc: "Reach out to the locals in your area and grow your business presence in the neighbourhood.",
     href: "https://adminappdev.stircrazykids.com.au/",
     icon: sckIcon,
     techIcon: [
@@ -233,7 +248,7 @@ const actions = [
   {
     title: "Liminal",
     titleDesc: "School Management Application",
-    desc: "Reach out to the locals in your area and grow your business presence in the neighbourhood.",
+    // desc: "Reach out to the locals in your area and grow your business presence in the neighbourhood.",
     href: "https://app.liminalwellbeing.com.au/",
     icon: liminalIcon,
     techIcon: [
@@ -290,7 +305,7 @@ const actions = [
   {
     title: "Horizon",
     titleDesc: "Gym Application",
-    desc: "Reach out to the locals in your area and grow your business presence in the neighbourhood.",
+    // desc: "Reach out to the locals in your area and grow your business presence in the neighbourhood.",
     href: "https://ddl230sltosum.cloudfront.net/",
     icon: horizonIcon,
     techIcon: [
@@ -344,6 +359,63 @@ const actions = [
       },
     ],
   },
+  {
+    title: "MeloMac",
+    titleDesc: "MUSIC STREAMING WEB APPLICATION",
+    // desc: "Reach out to the locals in your area and grow your business presence in the neighbourhood.",
+    href: "https://melomac.herokuapp.com/",
+    icon: maloIcon,
+    techIcon: [
+      {
+        icon: reactIcon,
+        link: "https://www.google.com/search?q=react&ei=GFhdYuT3Mp2X4-EPlauI8AI&ved=0ahUKEwjk44OMzZ33AhWdyzgGHZUVAi4Q4dUDCA4&uact=5&oq=react&gs_lcp=Cgdnd3Mtd2l6EAMyBwgAELEDEEMyBwgAELEDEEMyBAgAEEMyBwgAELEDEEMyBAgAEEMyBAgAEEMyCAgAEIAEELEDMggIABCABBCxAzIICAAQgAQQsQMyCAgAEIAEELEDOgoILhCxAxDUAhBDOg4ILhCABBCxAxDHARCjAjoFCAAQgAQ6DQguELEDEMcBENEDEENKBAhBGABKBAhGGABQAFiLCGD7DGgAcAF4AIAB7AGIAZ8HkgEFMC40LjGYAQCgAQHAAQE&sclient=gws-wiz",
+      },
+      {
+        icon: reduxIcon,
+        link: "https://www.google.com/search?q=redux&ei=KVhdYsrcOvqY4-EP5MymiAY&oq=redu&gs_lcp=Cgdnd3Mtd2l6EAMYADIHCAAQsQMQQzIECAAQQzIICAAQgAQQsQMyBwgAELEDEEMyCAgAEIAEELEDMgQIABBDMgcIABCxAxBDMgQIABBDMgQIABBDMggIABCABBCxAzoHCAAQRxCwAzoHCAAQsAMQQzoKCAAQ5AIQsAMYAToSCC4QxwEQ0QMQyAMQsAMQQxgCOg8ILhDUAhDIAxCwAxBDGAI6DQguELEDEMcBENEDEENKBAhBGABKBAhGGAFQ2wVYvwtgtRNoAXABeACAAe0BiAH5BZIBBTAuMy4xmAEAoAEByAERwAEB2gEGCAEQARgJ2gEGCAIQARgI&sclient=gws-wiz",
+      },
+      {
+        icon: firebaseIcon,
+        isOther: true,
+        link: "https://www.google.com/search?q=firebase&biw=1294&bih=669&ei=hFtdYuz5MPec4-EP4s2p2As&gs_ssp=eJzj4tbP1TcwNEw2rcwxVmA0YHRg8OJIyyxKTUosTgUAXfkHSA&oq=f&gs_lcp=Cgdnd3Mtd2l6EAEYADIKCC4QxwEQ0QMQQzIECAAQQzIGCAAQChBDMgQIABBDMgcIABCxAxBDMgsIABCABBCxAxCDATIKCC4QxwEQ0QMQQzILCAAQgAQQsQMQgwEyCAgAEIAEELEDMgUIABCABDoHCAAQRxCwAzoHCAAQsAMQQzoKCAAQ5AIQsAMYAToSCC4QxwEQ0QMQyAMQsAMQQxgCOhIILhDHARCjAhDIAxCwAxBDGAI6DQguELEDEMcBENEDEEM6DgguEIAEELEDEMcBENEDSgQIQRgASgQIRhgBUMMGWJsQYMIdaAJwAXgAgAHtAYgBoQOSAQUwLjEuMZgBAKABAcgBE8ABAdoBBggBEAEYCdoBBggCEAEYCA&sclient=gws-wiz",
+      },
+    ],
+  },
+  {
+    title: "Message Board",
+    titleDesc: "TOPIC DISCUSSION WEB APPLICATION",
+    // desc: "Reach out to the locals in your area and grow your business presence in the neighbourhood.",
+    href: "https://mesboards.herokuapp.com/",
+    icon: messIcon,
+    techIcon: [
+      {
+        icon: htmlIcon,
+        link: "https://www.google.com/search?q=html&oq=html&aqs=chrome.0.69i59l4j69i60l3j69i61.1017j0j7&sourceid=chrome&ie=UTF-8",
+      },
+      {
+        icon: cssIcon,
+        link: "https://www.google.com/search?q=css&oq=css&aqs=chrome..69i57j0i433i512l4j69i60j69i61j69i60.1496j0j9&sourceid=chrome&ie=UTF-8",
+      },
+      {
+        icon: javascriptIcon,
+        link: "https://www.google.com/search?q=javascript&ei=2FddYpHIHpqb4-EPr_iewAk&oq=java&gs_lcp=Cgdnd3Mtd2l6EAEYADIHCAAQsQMQQzIHCAAQsQMQQzIECC4QQzIECAAQQzIICAAQgAQQsQMyCAgAEIAEELEDMgcIABCxAxBDMggIABCABBCxAzIICAAQgAQQsQMyBAgAEEM6DgguEIAEELEDEMcBENEDOgUIABCABDoFCC4QgAQ6CAguEIAEELEDSgQIQRgASgQIRhgAUABY8AJgiApoAHABeACAAZgCiAG3BZIBBTAuMy4xmAEAoAEBwAEB&sclient=gws-wiz",
+      },
+      {
+        icon: handlebarsIcon,
+        link: "https://www.google.com/search?q=handlebars&biw=1294&bih=669&ei=SltdYuHOJ9HF4-EP7bKUuAQ&oq=handl&gs_lcp=Cgdnd3Mtd2l6EAMYADIHCAAQsQMQQzIECAAQQzIECAAQQzIECAAQQzIFCAAQgAQyCAgAEIAEELEDMgUIABCABDIFCAAQgAQyCAgAEIAEELEDMgUIABCABDoOCC4QgAQQsQMQxwEQowI6CwgAEIAEELEDEIMBOgcIABCxAxAKOgoILhDHARDRAxBDOgsILhCABBCxAxDUAjoICC4QgAQQ1AI6BQguEIAEOggILhCABBCxA0oECEEYAEoECEYYAFAAWNIEYPwLaABwAXgAgAGyAYgBuQWSAQMwLjWYAQCgAQHAAQE&sclient=gws-wiz",
+      },
+      {
+        icon: expressIcon,
+        isOther: true,
+        link: "https://www.google.com/search?q=express&biw=1294&bih=669&ei=VltdYvOsM6CV4-EPgamq8AM&ved=0ahUKEwjzr-eX0J33AhWgyjgGHYGUCj4Q4dUDCA4&uact=5&oq=express&gs_lcp=Cgdnd3Mtd2l6EAMyBAgAEEMyBAgAEEMyBAgAEEMyBAgAEEMyBAgAEEMyBwgAELEDEEMyBAgAEEMyBAgAEEMyBAgAEEMyCAgAEIAEELEDOg4ILhCABBCxAxDHARCjAjoLCAAQgAQQsQMQgwE6BQgAEIAESgQIQRgASgQIRhgAUABYrQtggA9oAHABeACAAcIBiAHFCJIBAzAuN5gBAKABAcABAQ&sclient=gws-wiz",
+      },
+      {
+        icon: mongoIcon,
+        isOther: true,
+        link: "https://www.google.com/search?q=mongodb&biw=1294&bih=669&ei=Y1tdYpKnFIzG4-EPsruH-Ac&oq=mongo&gs_lcp=Cgdnd3Mtd2l6EAMYADIHCAAQsQMQQzIKCC4QsQMQ1AIQQzIECAAQQzIHCAAQsQMQQzIHCAAQsQMQQzIHCAAQsQMQQzIHCAAQsQMQQzILCC4QgAQQsQMQ1AIyBAgAEEMyBAgAEEM6CgguEMcBENEDEEM6DgguEIAEELEDEMcBENEDOg4ILhCABBCxAxDHARCjAjoICAAQgAQQsQM6BQgAEIAEOgoILhDHARCjAhBDOgsIABCABBCxAxCDAToHCC4Q1AIQQzoHCAAQyQMQQ0oECEEYAEoECEYYAFAAWJIHYIkSaABwAXgAgAGnAYgBswWSAQMwLjWYAQCgAQHAAQE&sclient=gws-wiz",
+      },
+    ],
+  },
 ];
 
 function classNames(...classes) {
@@ -394,7 +466,7 @@ export default function Projects() {
               <a className="focus:outline-none">
                 {/* Extend touch target to entire panel */}
                 <span className="absolute inset-0" aria-hidden="true" />
-                {"Description"}
+                {/* {"Description"} */}
               </a>
             </h3>
             <div style={{ width: "100%", height: "100%" }}>
